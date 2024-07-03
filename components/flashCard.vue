@@ -4,7 +4,7 @@
     :class="{ [backgroundColor]: true, transitions }"
     class="flash-card p-4 border rounded shadow-md cursor-pointer aspect-square relative"
   >
-    <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <div v-if="word" class="absolute inset-0 flex items-center justify-center pointer-events-none">
       <div>
         <p class="text-lg font-bold">
           <span
@@ -20,6 +20,9 @@
         </p>
       </div>
     </div>
+    <div v-else class="absolute inset-0 flex items-center justify-center pointer-events-none">
+      <p>Loading words...</p>
+    </div>
   </div>
 </template>
 
@@ -28,17 +31,17 @@ import { ref } from "vue";
 import type { Word } from "@prisma/client";
 
 const props = defineProps<{
-  word: Word;
+  word?: Word;
 }>();
 
 const article = computed(() => {
   let article = "Le";
-  if (props.word.gender.toLowerCase() === "féminin") {
+  if (props.word?.gender.toLowerCase() === "féminin") {
     article = "La";
   }
 
   // If word starts with a vowel, use "l'"
-  if (props.word.word.match(/^h?[aeiouy]/i)) {
+  if (props.word?.word.match(/^h?[aeiouy]/i)) {
     article = "L'";
   }
 
@@ -64,14 +67,14 @@ const backgroundColor = computed(() => {
   if (!showGender.value) {
     return "bg-white";
   }
-  return props.word.gender.toLowerCase() === "masculin" ? "bg-blue-100" : "bg-pink-100";
+  return props.word?.gender.toLowerCase() === "masculin" ? "bg-blue-100" : "bg-pink-100";
 });
 
 const articleBorderColor = computed(() => {
   if (!showGender.value) {
     return "border-gray-500";
   }
-  return props.word.gender.toLowerCase() === "masculin" ? "border-blue-500" : "border-pink-500";
+  return props.word?.gender.toLowerCase() === "masculin" ? "border-blue-500" : "border-pink-500";
 });
 
 defineExpose({
