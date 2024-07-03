@@ -27,6 +27,12 @@ yarn install
 bun install
 ```
 
+Create a `.env` file in the root directory and add your MySQL URL variable:
+
+```env
+DATABASE_URL="mysql://user:password@localhost:3306/database"
+```
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
