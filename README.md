@@ -1,13 +1,13 @@
 # Nuxt 3 Flashcard App
 
-This is a flashcard application built with Nuxt 3, leveraging Tailwind CSS for styling and Prisma for database management. The app allows users to navigate through flashcards, displaying words along with their gender and translation.
+This is a flashcard application built with Nuxt 3, leveraging Tailwind CSS for styling and Prisma for database management. The app allows users to navigate through flashcards, displaying French nouns along with their gender. The purpose of the flashcards is to practice the gender of French nouns.
 
-## Technologies Used
+## Tech Used
 
-- **Nuxt 3**: A modern web framework for building fast and performant web applications.
-- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
-- **Prisma**: An ORM for Node.js and TypeScript that provides a type-safe database client.
-- **Vue 3**: The progressive JavaScript framework used by Nuxt 3.
+- **[Nuxt 3](https://nuxt.com/)**: A modern web framework for building fast and performant web applications.
+- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
+- **[Prisma](https://www.prisma.io/)**: An ORM for Node.js and TypeScript that provides a type-safe database client.
+- **[Vue 3](https://vuejs.org/)**: The progressive JavaScript framework used by Nuxt 3.
 
 ## Setup
 
