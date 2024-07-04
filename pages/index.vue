@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-wrap gap-4 m-auto justify-center bg-slate-200 p-4">
+    <div class="flex flex-wrap gap-4 m-auto justify-center bg-slate-200 p-4 lg:text-base md:text-sm text-xs">
       <button
         v-for="set in allSets"
         :key="set.id"
