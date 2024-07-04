@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   googleFonts: {
     families: {
-      montserrat: true,
+      Montserrat: [100, 200, 400, 600, 800],
     },
     subsets: ["latin"],
     display: "swap",

@@ -40,8 +40,8 @@ const article = computed(() => {
     article = "La";
   }
 
-  // If word starts with a vowel, use "l'"
-  if (props.word?.word.match(/^h?[aeiouy]/i)) {
+  // If word starts with a vowel or an accented vowel, use "l'"
+  if (props.word?.word.match(/^h?[aàâeéèêiîoôuùûy]/i)) {
     article = "L'";
   }
 

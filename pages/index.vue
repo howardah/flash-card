@@ -1,111 +1,43 @@
 <template>
-  <div class="w-full max-w-xs m-auto p-4">
-    <FlashCard ref="flashCard" :word="!pending ? formattedWord : undefined" />
-    <div class="grid grid-cols-2 gap-4">
+  <div>
+    <div class="flex flex-wrap gap-4 m-auto justify-center bg-slate-200 p-4">
       <button
-        @click="loadPreviousWord"
-        class="mt-4 p-2 bg-slate-500 text-white rounded w-full"
+        v-for="set in allSets"
+        :key="set.id"
+        @click="setId = set.id"
+        class="px-4 py-2 bg-slate-300 text-slate-500 rounded hover:bg-slate-400 hover:text-slate-100 transition"
       >
-        Previous Card
+        {{ set.name }}
       </button>
-      <button
-        @click="loadNextWord"
-        class="mt-4 p-2 bg-slate-500 text-white rounded w-full"
-      >
-        Next Card
-      </button>
+    </div>
+    <div class="flex items-center justify-center min-h-screen">
+      <FlashCardSet :key="setId" :set="set" />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, onBeforeUnmount, ref } from "vue";
-import type { Word } from "@prisma/client";
-import FlashCard from "@/components/flashCard.vue";
+import type { Set } from "@prisma/client";
 
-interface APIWord {
-  id: number;
-  word: string;
-  gender: string;
-  translation: string | null;
-  createdAt: string;
-  updatedAt: string;
-}
-
-const flashCard = ref<typeof FlashCard | null>(null);
-const words = ref<Word[]>([]);
-const currentIndex = ref(0);
-const formattedWord = ref<Word | undefined>(undefined);
-
-const formatWord = (word: Word | APIWord): Word => {
-  return {
-    ...word,
-    createdAt: new Date(word.createdAt),
-    updatedAt: new Date(word.updatedAt),
-  };
-};
-
-// Fetch all words using useAsyncData
-const { data: allWords, pending } = await useAsyncData("allWords", () =>
-  $fetch<APIWord[]>("/api/words/all")
+const { data: allSets, pending: pendingSets } = await useAsyncData("allSets", () =>
+  $fetch<Set[]>("/api/sets/all")
 );
-const initFirstWord = () => {
-  if (!pending.value && allWords.value) {
-    words.value = allWords.value
-      .filter((word: APIWord) => word !== null)
-      .map((word: APIWord) => formatWord(word)) as Word[];
-    const randomIndex = Math.floor(Math.random() * words.value.length);
-    currentIndex.value = randomIndex;
-    formattedWord.value = words.value[randomIndex];
-    return;
+
+const setId = ref(0);
+
+const set = computed(() => {
+  if (pendingSets.value) return undefined;
+
+  const selected = allSets.value?.find((set) => set.id === setId.value);
+  if (!selected && allSets.value) {
+    return allSets.value[0];
   }
-
-  setTimeout(() => {
-    initFirstWord();
-  }, 200);
-};
-
-const loadNewWord = (previous?: boolean) => {
-  if (previous) {
-    currentIndex.value =
-      (currentIndex.value - 1 + words.value.length) % words.value.length;
-  } else {
-    currentIndex.value = (currentIndex.value + 1) % words.value.length;
-  }
-  formattedWord.value = words.value[currentIndex.value];
-  flashCard.value?.toggleView(false, true);
-};
-
-const loadNextWord = () => {
-  loadNewWord(false);
-};
-
-const loadPreviousWord = () => {
-  loadNewWord(true);
-};
-
-// Handle keydown events to navigate through cards
-// ArrowRight: Next Card
-// ArrowLeft: Previous Card
-// Space: Toggle View
-const handleKeydown = (event: KeyboardEvent) => {
-  if (event.key === "ArrowRight") {
-    loadNextWord();
-  } else if (event.key === "ArrowLeft") {
-    loadPreviousWord();
-  } else if (event.key === " ") {
-    flashCard.value?.toggleView();
-  }
-};
-
-onMounted(() => {
-  initFirstWord();
-  window.addEventListener("keydown", handleKeydown);
-});
-
-onBeforeUnmount(() => {
-  window.removeEventListener("keydown", handleKeydown);
+  return selected;
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.min-h-screen {
+  min-height: calc(100vh - 10rem);
+}
+</style>

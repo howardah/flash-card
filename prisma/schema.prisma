@@ -11,12 +11,28 @@ datasource db {
 }
 
 model Word {
-  id     Int    @id @default(autoincrement())
-  word   String
-  gender String
+  id         Int      @id @default(autoincrement())
+  word       String
+  gender     String
   translation String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  wordSets   WordSet[]
   @@unique([word, gender])
+}
+
+model Set {
+  id         Int      @id @default(autoincrement())
+  name       String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  wordSets   WordSet[]
+}
+
+model WordSet {
+  wordId Int
+  setId  Int
+  word   Word @relation(fields: [wordId], references: [id])
+  set    Set  @relation(fields: [setId], references: [id])
+  @@id([wordId, setId])
 }
