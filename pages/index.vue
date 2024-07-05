@@ -6,6 +6,7 @@
         :key="set.id"
         @click="setId = set.id"
         class="px-4 py-2 bg-slate-300 text-slate-500 rounded hover:bg-slate-400 hover:text-slate-100 transition"
+        :class="{ 'bg-slate-400 text-slate-100': setId === set.id }"
       >
         {{ set.name }}
       </button>
