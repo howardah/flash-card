@@ -1,7 +1,7 @@
 {
   "productName": "flashcard",
-  "version": "0.0.0",
-  "identifier": "com.tauri.dev",
+  "version": "0.0.1",
+  "identifier": "com.howardah.flashcard",
   "build": {
     "beforeDevCommand": "bun run dev",
     "devUrl": "http://localhost:1420",
