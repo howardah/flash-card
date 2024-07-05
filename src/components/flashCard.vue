@@ -27,8 +27,8 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import type { Word } from "@prisma/client";
+import { Word } from "@prisma/client";
+import { computed, ref } from "vue";
 
 const props = defineProps<{
   word?: Word;

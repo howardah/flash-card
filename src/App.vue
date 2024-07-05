@@ -19,10 +19,16 @@
 
 <script setup lang="ts">
 import type { Set } from "@prisma/client";
+import { computed, ref } from "vue";
+import { testDataSets } from "./assets/testData";
+import FlashCardSet from "./components/flashCardSet.vue";
 
-const { data: allSets, pending: pendingSets } = await useAsyncData("allSets", () =>
-  $fetch<Set[]>("/api/sets/all")
-);
+// const { data: allSets, pending: pendingSets } = await useAsyncData("allSets", () =>
+//   $fetch<Set[]>("/api/sets/all")
+// );
+
+const allSets = ref<Set[]>(testDataSets);
+const pendingSets = ref(false);
 
 const setId = ref(0);
 

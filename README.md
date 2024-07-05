@@ -1,115 +1,16 @@
-# Nuxt 3 Flashcard App
+# Tauri + Vue + TypeScript
 
-This is a flashcard application built with Nuxt 3, leveraging Tailwind CSS for styling and Prisma for database management. The app allows users to navigate through flashcards, displaying French nouns along with their gender. The purpose of the flashcards is to practice the gender of French nouns.
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-## Tech Used
+## Recommended IDE Setup
 
-- **[Nuxt 3](https://nuxt.com/)**: A modern web framework for building fast and performant web applications.
-- **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
-- **[Prisma](https://www.prisma.io/)**: An ORM for Node.js and TypeScript that provides a type-safe database client.
-- **[Vue 3](https://vuejs.org/)**: The progressive JavaScript framework used by Nuxt 3.
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 
-## Setup
+## Type Support For `.vue` Imports in TS
 
-Make sure to install the dependencies:
+Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
 
-```bash
-# npm
-npm install
+1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
+2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-Create a `.env` file in the root directory and add your MySQL URL variable:
-
-```env
-DATABASE_URL="mysql://user:password@localhost:3306/database"
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-## Features
-
-- **Flashcard Navigation**: Use the "Next Card" and "Previous Card" buttons to navigate through the flashcards.
-- **Keyboard Shortcuts**: 
-  - ArrowRight: Next Card
-  - ArrowLeft: Previous Card
-  - Space: Toggle View
-- **Randomized Flashcards**: The app fetches and displays words randomly from the database.
-
-## API Endpoints
-
-- **Get All Words**: Fetches all words from the database.
-- **Add Word**: Adds a new word to the database.
-- **Get Single Word**: Fetches a single word, either randomly or based on the current word and navigation direction.
-
-## Database
-
-The app uses Prisma to manage the database, which is configured to use MySQL. The schema is defined in `prisma/schema.prisma`.
-
-## Deployment
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
-## Additional Resources
-
-- [Nuxt 3 Documentation](https://nuxt.com/docs/getting-started/introduction)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Prisma Documentation](https://www.prisma.io/docs)
+You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
