@@ -12,7 +12,31 @@
       </button>
     </div>
     <div class="flex items-center justify-center min-h-screen">
-      <FlashCardSet :key="setId" :set="set" />
+      <div>
+        <FlashCardSet :key="setId" :set="set" />
+        <div class="grid grid-cols-2 p-4 gap-4 items-center justify-center" :class="{ 'input-container': isInputFocused }">
+          <div class="col-span-2">
+            <input 
+              v-model="testWord" 
+              @focus="isInputFocused = true" 
+              @blur="isInputFocused = false" 
+              class="px-4 py-2 border rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" 
+            />
+          </div>
+          <button 
+            @click="saveWord" 
+            class="px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-600 transition"
+          >
+            Save Word
+          </button>
+          <button 
+            @click="getWord" 
+            class="px-2 py-1 bg-green-500 text-white rounded hover:bg-green-600 transition"
+          >
+            Get Word
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -22,6 +46,7 @@ import type { Set } from "@prisma/client";
 import { computed, ref } from "vue";
 import { testDataSets } from "./assets/testData";
 import FlashCardSet from "./components/flashCardSet.vue";
+import { invoke } from "@tauri-apps/api/core";
 
 // const { data: allSets, pending: pendingSets } = await useAsyncData("allSets", () =>
 //   $fetch<Set[]>("/api/sets/all")
@@ -29,8 +54,20 @@ import FlashCardSet from "./components/flashCardSet.vue";
 
 const allSets = ref<Set[]>(testDataSets);
 const pendingSets = ref(false);
-
+const testWord = ref("");
 const setId = ref(0);
+const isInputFocused = ref(false);
+
+const saveWord = () => {
+  invoke("save_word", { word: testWord.value });
+  console.log(testWord.value);
+};
+
+const getWord = async () => {
+  const fetchedWord: string = await invoke("get_word");
+  testWord.value = fetchedWord;
+  console.log(fetchedWord);
+};
 
 const set = computed(() => {
   if (pendingSets.value) return undefined;
@@ -46,5 +83,11 @@ const set = computed(() => {
 <style scoped>
 .min-h-screen {
   min-height: calc(100vh - 10rem);
+}
+
+@media (max-width: 768px) {
+  .input-container {
+    padding-bottom: 50vh; /* Adjust this value as needed */
+  }
 }
 </style>
