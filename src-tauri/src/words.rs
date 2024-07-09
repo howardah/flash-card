@@ -10,7 +10,10 @@ pub struct Word {
     pub updated_at: String,
 }
 
-pub static WORDS: Lazy<Vec<Word>> = Lazy::new(|| {
+
+pub const WORD_DATA: &str = include_str!("./words.json");
+
+pub fn get_words() -> Vec<Word> {
     let data = include_str!("./words.json");
     serde_json::from_str(data).expect("Error parsing words.json")
-});
+}

@@ -5,25 +5,25 @@ use std::{
     thread
 };
 
-use diesel::{prelude::*, sqlite::Sqlite};
-use diesel_migrations::{embed_migrations, EmbeddedMigrations, MigrationHarness};
-pub const MIGRATIONS: EmbeddedMigrations = embed_migrations!("migrations");
+// use diesel::{prelude::*, sqlite::Sqlite};
+// use diesel_migrations::{embed_migrations, EmbeddedMigrations, MigrationHarness};
+// pub const MIGRATIONS: EmbeddedMigrations = embed_migrations!("migrations");
 
 use tauri::{AppHandle, Manager};
 
-use crate::words::WORDS;
+use crate::words::get_words;
 
-fn run_migrations(
-    connection: &mut impl MigrationHarness<Sqlite>,
-) -> Result<(), Box<dyn Error + Send + Sync + 'static>> {
-    // This will run the necessary migrations.
-    //
-    // See the documentation for `MigrationHarness` for
-    // all available methods.
-    connection.run_pending_migrations(MIGRATIONS)?;
+// fn run_migrations(
+//     connection: &mut impl MigrationHarness<Sqlite>,
+// ) -> Result<(), Box<dyn Error + Send + Sync + 'static>> {
+//     // This will run the necessary migrations.
+//     //
+//     // See the documentation for `MigrationHarness` for
+//     // all available methods.
+//     connection.run_pending_migrations(MIGRATIONS)?;
 
-    Ok(())
-}
+//     Ok(())
+// }
 
 pub fn init_db(app_handle: &AppHandle) {
     let path = app_handle.path();
@@ -33,9 +33,9 @@ pub fn init_db(app_handle: &AppHandle) {
         // Print message to console
         println!("Initializing database...");
         let database_path = data_dir.join("flash_card.db");
-        let mut connection = SqliteConnection::establish(database_path.to_str().unwrap()).unwrap();
+        // let mut connection = SqliteConnection::establish(database_path.to_str().unwrap()).unwrap();
 
-        run_migrations(&mut connection).unwrap();
+        // run_migrations(&mut connection).unwrap();
     });
 }
 
@@ -51,7 +51,7 @@ pub async fn add_words_from_cloud(app_handle: &AppHandle) {
     thread::spawn(move || {
         // Use an async block within the thread
         tauri::async_runtime::block_on(async {
-            let words = WORDS.clone();
+            let words = get_words();
 
             println!("Fetched words from cloud: {:?}", words);
         });
