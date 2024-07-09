@@ -24,10 +24,10 @@ pub struct Set {
 }
 
 #[derive(Queryable, Identifiable, Associations, Selectable, Debug)]
-#[primary_key(word_id, set_id)]
-#[belongs_to(Word, foreign_key = "word_id")]
-#[belongs_to(Set, foreign_key = "set_id")]
 #[diesel(table_name = crate::schema::word_set)]
+#[diesel(primary_key(word_id, set_id))]
+#[diesel(belongs_to(Word))]
+#[diesel(belongs_to(Set))]
 pub struct WordSet {
     pub word_id: i32,
     pub set_id: i32,

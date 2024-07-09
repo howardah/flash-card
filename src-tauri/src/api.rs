@@ -1,6 +1,62 @@
-use std::{fs::File, io::{Read, Write}};
+use std::{
+    error::Error,
+    fs::File,
+    io::{Read, Write},
+    thread
+};
+
+use diesel::{prelude::*, sqlite::Sqlite};
+use diesel_migrations::{embed_migrations, EmbeddedMigrations, MigrationHarness};
+pub const MIGRATIONS: EmbeddedMigrations = embed_migrations!("migrations");
 
 use tauri::{AppHandle, Manager};
+
+use crate::words::WORDS;
+
+fn run_migrations(
+    connection: &mut impl MigrationHarness<Sqlite>,
+) -> Result<(), Box<dyn Error + Send + Sync + 'static>> {
+    // This will run the necessary migrations.
+    //
+    // See the documentation for `MigrationHarness` for
+    // all available methods.
+    connection.run_pending_migrations(MIGRATIONS)?;
+
+    Ok(())
+}
+
+pub fn init_db(app_handle: &AppHandle) {
+    let path = app_handle.path();
+    let data_dir = path.app_data_dir().unwrap().clone();
+
+    thread::spawn(move || {
+        // Print message to console
+        println!("Initializing database...");
+        let database_path = data_dir.join("flash_card.db");
+        let mut connection = SqliteConnection::establish(database_path.to_str().unwrap()).unwrap();
+
+        run_migrations(&mut connection).unwrap();
+    });
+}
+
+pub async fn add_words_from_cloud(app_handle: &AppHandle) {
+    let path = app_handle.path();
+    let data_dir = path.app_data_dir().unwrap();
+
+    println!("Adding words from cloud...");
+    
+    // Fetch contents of "https://gender-flash-card.netlify.app/api/words/all" 
+    // in a new thread
+
+    thread::spawn(move || {
+        // Use an async block within the thread
+        tauri::async_runtime::block_on(async {
+            let words = WORDS.clone();
+
+            println!("Fetched words from cloud: {:?}", words);
+        });
+    });
+}
 
 #[tauri::command]
 pub fn save_word(word: &str, app_handle: AppHandle) -> String {
@@ -20,11 +76,11 @@ pub fn get_word(app_handle: AppHandle) -> String {
     let path = app_handle.path();
     let data_dir = path.app_data_dir().unwrap();
     let word_path = data_dir.join("word.txt");
-    
+
     let mut word = String::new();
     if let Ok(mut word_file) = File::open(word_path) {
         word_file.read_to_string(&mut word).unwrap();
     }
-    
+
     word
 }

@@ -1,0 +1,2074 @@
+[
+  {
+    "id": 65,
+    "word": "temps",
+    "gender": "Masculin",
+    "translation": "weather",
+    "createdAt": "2024-07-04T06:55:37.202Z",
+    "updatedAt": "2024-07-04T06:55:37.202Z"
+  },
+  {
+    "id": 231,
+    "word": "cheville",
+    "gender": "Féminin",
+    "translation": "ankle",
+    "createdAt": "2024-07-04T06:55:38.809Z",
+    "updatedAt": "2024-07-04T06:55:38.809Z"
+  },
+  {
+    "id": 14,
+    "word": "mère",
+    "gender": "Féminin",
+    "translation": "mother",
+    "createdAt": "2024-07-03T10:50:36.905Z",
+    "updatedAt": "2024-07-03T10:50:36.905Z"
+  },
+  {
+    "id": 9,
+    "word": "jour",
+    "gender": "Masculin",
+    "translation": "day",
+    "createdAt": "2024-07-03T10:50:36.696Z",
+    "updatedAt": "2024-07-03T10:50:36.696Z"
+  },
+  {
+    "id": 37,
+    "word": "table",
+    "gender": "Féminin",
+    "translation": "table",
+    "createdAt": "2024-07-04T06:55:37.153Z",
+    "updatedAt": "2024-07-04T06:55:37.153Z"
+  },
+  {
+    "id": 53,
+    "word": "canapé",
+    "gender": "Masculin",
+    "translation": "sofa",
+    "createdAt": "2024-07-04T06:55:37.178Z",
+    "updatedAt": "2024-07-04T06:55:37.178Z"
+  },
+  {
+    "id": 63,
+    "word": "neige",
+    "gender": "Féminin",
+    "translation": "snow",
+    "createdAt": "2024-07-04T06:55:37.197Z",
+    "updatedAt": "2024-07-04T06:55:37.197Z"
+  },
+  {
+    "id": 56,
+    "word": "télévision",
+    "gender": "Féminin",
+    "translation": "television",
+    "createdAt": "2024-07-04T06:55:37.189Z",
+    "updatedAt": "2024-07-04T06:55:37.189Z"
+  },
+  {
+    "id": 131,
+    "word": "quai",
+    "gender": "Masculin",
+    "translation": "platform",
+    "createdAt": "2024-07-04T06:55:37.980Z",
+    "updatedAt": "2024-07-04T06:55:37.980Z"
+  },
+  {
+    "id": 107,
+    "word": "bœuf",
+    "gender": "Masculin",
+    "translation": "beef",
+    "createdAt": "2024-07-04T06:55:37.295Z",
+    "updatedAt": "2024-07-04T06:55:37.295Z"
+  },
+  {
+    "id": 117,
+    "word": "four",
+    "gender": "Masculin",
+    "translation": "oven",
+    "createdAt": "2024-07-04T06:55:37.954Z",
+    "updatedAt": "2024-07-04T06:55:37.954Z"
+  },
+  {
+    "id": 58,
+    "word": "radio",
+    "gender": "Féminin",
+    "translation": "radio",
+    "createdAt": "2024-07-04T06:55:37.189Z",
+    "updatedAt": "2024-07-04T06:55:37.189Z"
+  },
+  {
+    "id": 36,
+    "word": "téléphone",
+    "gender": "Masculin",
+    "translation": "phone",
+    "createdAt": "2024-07-04T06:55:37.151Z",
+    "updatedAt": "2024-07-04T06:55:37.151Z"
+  },
+  {
+    "id": 125,
+    "word": "timbre",
+    "gender": "Masculin",
+    "translation": "stamp",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 121,
+    "word": "lettre",
+    "gender": "Féminin",
+    "translation": "letter",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 1,
+    "word": "livre",
+    "gender": "Masculin",
+    "translation": "book",
+    "createdAt": "2024-07-03T10:50:36.300Z",
+    "updatedAt": "2024-07-03T10:50:36.300Z"
+  },
+  {
+    "id": 123,
+    "word": "enveloppe",
+    "gender": "Féminin",
+    "translation": "envelope",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 111,
+    "word": "lampe",
+    "gender": "Féminin",
+    "translation": "lamp",
+    "createdAt": "2024-07-04T06:55:37.953Z",
+    "updatedAt": "2024-07-04T06:55:37.953Z"
+  },
+  {
+    "id": 79,
+    "word": "automne",
+    "gender": "Masculin",
+    "translation": "autumn",
+    "createdAt": "2024-07-04T06:55:37.226Z",
+    "updatedAt": "2024-07-04T06:55:37.226Z"
+  },
+  {
+    "id": 69,
+    "word": "matin",
+    "gender": "Masculin",
+    "translation": "morning",
+    "createdAt": "2024-07-04T06:55:37.213Z",
+    "updatedAt": "2024-07-04T06:55:37.213Z"
+  },
+  {
+    "id": 110,
+    "word": "tableau",
+    "gender": "Masculin",
+    "translation": "painting",
+    "createdAt": "2024-07-04T06:55:37.952Z",
+    "updatedAt": "2024-07-04T06:55:37.952Z"
+  },
+  {
+    "id": 31,
+    "word": "rue",
+    "gender": "Féminin",
+    "translation": "street",
+    "createdAt": "2024-07-04T06:55:37.140Z",
+    "updatedAt": "2024-07-04T06:55:37.140Z"
+  },
+  {
+    "id": 232,
+    "word": "lumière",
+    "gender": "Féminin",
+    "translation": "light",
+    "createdAt": "2024-07-04T06:55:38.798Z",
+    "updatedAt": "2024-07-04T06:55:38.798Z"
+  },
+  {
+    "id": 219,
+    "word": "ange",
+    "gender": "Masculin",
+    "translation": "angel",
+    "createdAt": "2024-07-04T06:55:38.757Z",
+    "updatedAt": "2024-07-04T06:55:38.757Z"
+  },
+  {
+    "id": 124,
+    "word": "horloge",
+    "gender": "Féminin",
+    "translation": "clock",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 202,
+    "word": "plafond",
+    "gender": "Masculin",
+    "translation": "ceiling",
+    "createdAt": "2024-07-04T06:55:38.729Z",
+    "updatedAt": "2024-07-04T06:55:38.729Z"
+  },
+  {
+    "id": 230,
+    "word": "gomme",
+    "gender": "Féminin",
+    "translation": "eraser",
+    "createdAt": "2024-07-04T06:55:38.803Z",
+    "updatedAt": "2024-07-04T06:55:38.803Z"
+  },
+  {
+    "id": 209,
+    "word": "tigre",
+    "gender": "Masculin",
+    "translation": "tiger",
+    "createdAt": "2024-07-04T06:55:38.744Z",
+    "updatedAt": "2024-07-04T06:55:38.744Z"
+  },
+  {
+    "id": 59,
+    "word": "forêt",
+    "gender": "Féminin",
+    "translation": "forest",
+    "createdAt": "2024-07-04T06:55:37.189Z",
+    "updatedAt": "2024-07-04T06:55:37.189Z"
+  },
+  {
+    "id": 99,
+    "word": "légume",
+    "gender": "Masculin",
+    "translation": "vegetable",
+    "createdAt": "2024-07-04T06:55:37.282Z",
+    "updatedAt": "2024-07-04T06:55:37.282Z"
+  },
+  {
+    "id": 215,
+    "word": "kangourou",
+    "gender": "Masculin",
+    "translation": "kangaroo",
+    "createdAt": "2024-07-04T06:55:38.756Z",
+    "updatedAt": "2024-07-04T06:55:38.756Z"
+  },
+  {
+    "id": 54,
+    "word": "professeur",
+    "gender": "Masculin",
+    "translation": "teacher",
+    "createdAt": "2024-07-04T06:55:37.178Z",
+    "updatedAt": "2024-07-04T06:55:37.178Z"
+  },
+  {
+    "id": 201,
+    "word": "cravate",
+    "gender": "Féminin",
+    "translation": "tie",
+    "createdAt": "2024-07-04T06:55:38.728Z",
+    "updatedAt": "2024-07-04T06:55:38.728Z"
+  },
+  {
+    "id": 216,
+    "word": "singe",
+    "gender": "Masculin",
+    "translation": "monkey",
+    "createdAt": "2024-07-04T06:55:38.756Z",
+    "updatedAt": "2024-07-04T06:55:38.756Z"
+  },
+  {
+    "id": 73,
+    "word": "mois",
+    "gender": "Masculin",
+    "translation": "month",
+    "createdAt": "2024-07-04T06:55:37.226Z",
+    "updatedAt": "2024-07-04T06:55:37.226Z"
+  },
+  {
+    "id": 83,
+    "word": "enfant",
+    "gender": "Masculin",
+    "translation": "child",
+    "createdAt": "2024-07-04T06:55:37.243Z",
+    "updatedAt": "2024-07-04T06:55:37.243Z"
+  },
+  {
+    "id": 66,
+    "word": "heure",
+    "gender": "Féminin",
+    "translation": "hour",
+    "createdAt": "2024-07-04T06:55:37.213Z",
+    "updatedAt": "2024-07-04T06:55:37.213Z"
+  },
+  {
+    "id": 205,
+    "word": "tabouret",
+    "gender": "Masculin",
+    "translation": "stool",
+    "createdAt": "2024-07-04T06:55:38.743Z",
+    "updatedAt": "2024-07-04T06:55:38.743Z"
+  },
+  {
+    "id": 61,
+    "word": "ciel",
+    "gender": "Masculin",
+    "translation": "sky",
+    "createdAt": "2024-07-04T06:55:37.197Z",
+    "updatedAt": "2024-07-04T06:55:37.197Z"
+  },
+  {
+    "id": 100,
+    "word": "tomate",
+    "gender": "Féminin",
+    "translation": "tomato",
+    "createdAt": "2024-07-04T06:55:37.282Z",
+    "updatedAt": "2024-07-04T06:55:37.282Z"
+  },
+  {
+    "id": 218,
+    "word": "canard",
+    "gender": "Masculin",
+    "translation": "duck",
+    "createdAt": "2024-07-04T06:55:38.757Z",
+    "updatedAt": "2024-07-04T06:55:38.757Z"
+  },
+  {
+    "id": 128,
+    "word": "magazine",
+    "gender": "Masculin",
+    "translation": "magazine",
+    "createdAt": "2024-07-04T06:55:37.980Z",
+    "updatedAt": "2024-07-04T06:55:37.980Z"
+  },
+  {
+    "id": 204,
+    "word": "piscine",
+    "gender": "Féminin",
+    "translation": "swimming pool",
+    "createdAt": "2024-07-04T06:55:38.729Z",
+    "updatedAt": "2024-07-04T06:55:38.729Z"
+  },
+  {
+    "id": 206,
+    "word": "marais",
+    "gender": "Masculin",
+    "translation": "swamp",
+    "createdAt": "2024-07-04T06:55:38.743Z",
+    "updatedAt": "2024-07-04T06:55:38.743Z"
+  },
+  {
+    "id": 262,
+    "word": "dent",
+    "gender": "Féminin",
+    "translation": "tooth",
+    "createdAt": "2024-07-04T06:57:26.805Z",
+    "updatedAt": "2024-07-04T06:57:26.805Z"
+  },
+  {
+    "id": 33,
+    "word": "porte",
+    "gender": "Féminin",
+    "translation": "door",
+    "createdAt": "2024-07-04T06:55:37.153Z",
+    "updatedAt": "2024-07-04T06:55:37.153Z"
+  },
+  {
+    "id": 120,
+    "word": "mur",
+    "gender": "Masculin",
+    "translation": "wall",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 248,
+    "word": "trottinette",
+    "gender": "Féminin",
+    "translation": "scooter",
+    "createdAt": "2024-07-04T06:57:25.183Z",
+    "updatedAt": "2024-07-04T06:57:25.183Z"
+  },
+  {
+    "id": 233,
+    "word": "cochon",
+    "gender": "Masculin",
+    "translation": "pig",
+    "createdAt": "2024-07-04T06:55:38.797Z",
+    "updatedAt": "2024-07-04T06:55:38.797Z"
+  },
+  {
+    "id": 87,
+    "word": "supermarché",
+    "gender": "Masculin",
+    "translation": "supermarket",
+    "createdAt": "2024-07-04T06:55:37.269Z",
+    "updatedAt": "2024-07-04T06:55:37.269Z"
+  },
+  {
+    "id": 127,
+    "word": "marin",
+    "gender": "Masculin",
+    "translation": "sailor",
+    "createdAt": "2024-07-04T06:55:37.980Z",
+    "updatedAt": "2024-07-04T06:55:37.980Z"
+  },
+  {
+    "id": 129,
+    "word": "visa",
+    "gender": "Masculin",
+    "translation": "visa",
+    "createdAt": "2024-07-04T06:55:37.980Z",
+    "updatedAt": "2024-07-04T06:55:37.980Z"
+  },
+  {
+    "id": 234,
+    "word": "flamme",
+    "gender": "Féminin",
+    "translation": "flame",
+    "createdAt": "2024-07-04T06:55:38.797Z",
+    "updatedAt": "2024-07-04T06:55:38.797Z"
+  },
+  {
+    "id": 175,
+    "word": "tonnerre",
+    "gender": "Masculin",
+    "translation": "thunder",
+    "createdAt": "2024-07-04T06:55:38.058Z",
+    "updatedAt": "2024-07-04T06:55:38.058Z"
+  },
+  {
+    "id": 173,
+    "word": "champ",
+    "gender": "Masculin",
+    "translation": "field",
+    "createdAt": "2024-07-04T06:55:38.049Z",
+    "updatedAt": "2024-07-04T06:55:38.049Z"
+  },
+  {
+    "id": 254,
+    "word": "tortue",
+    "gender": "Féminin",
+    "translation": "turtle",
+    "createdAt": "2024-07-04T06:57:25.831Z",
+    "updatedAt": "2024-07-04T06:57:25.831Z"
+  },
+  {
+    "id": 52,
+    "word": "jardin",
+    "gender": "Masculin",
+    "translation": "garden",
+    "createdAt": "2024-07-04T06:55:37.185Z",
+    "updatedAt": "2024-07-04T06:55:37.185Z"
+  },
+  {
+    "id": 260,
+    "word": "collier",
+    "gender": "Masculin",
+    "translation": "necklace",
+    "createdAt": "2024-07-04T06:57:26.673Z",
+    "updatedAt": "2024-07-04T06:57:26.673Z"
+  },
+  {
+    "id": 184,
+    "word": "foudre",
+    "gender": "Féminin",
+    "translation": "lightning",
+    "createdAt": "2024-07-04T06:55:38.070Z",
+    "updatedAt": "2024-07-04T06:55:38.070Z"
+  },
+  {
+    "id": 139,
+    "word": "immeuble",
+    "gender": "Masculin",
+    "translation": "building",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 133,
+    "word": "livreur",
+    "gender": "Masculin",
+    "translation": "delivery person",
+    "createdAt": "2024-07-04T06:55:37.980Z",
+    "updatedAt": "2024-07-04T06:55:37.980Z"
+  },
+  {
+    "id": 168,
+    "word": "cuisinière",
+    "gender": "Féminin",
+    "translation": "stove",
+    "createdAt": "2024-07-04T06:55:38.036Z",
+    "updatedAt": "2024-07-04T06:55:38.036Z"
+  },
+  {
+    "id": 35,
+    "word": "ordinateur",
+    "gender": "Masculin",
+    "translation": "computer",
+    "createdAt": "2024-07-04T06:55:37.112Z",
+    "updatedAt": "2024-07-04T06:55:37.112Z"
+  },
+  {
+    "id": 174,
+    "word": "désert",
+    "gender": "Masculin",
+    "translation": "desert",
+    "createdAt": "2024-07-04T06:55:38.049Z",
+    "updatedAt": "2024-07-04T06:55:38.049Z"
+  },
+  {
+    "id": 109,
+    "word": "douche",
+    "gender": "Féminin",
+    "translation": "shower",
+    "createdAt": "2024-07-04T06:55:37.952Z",
+    "updatedAt": "2024-07-04T06:55:37.952Z"
+  },
+  {
+    "id": 68,
+    "word": "rivière",
+    "gender": "Féminin",
+    "translation": "river",
+    "createdAt": "2024-07-04T06:55:37.214Z",
+    "updatedAt": "2024-07-04T06:55:37.214Z"
+  },
+  {
+    "id": 223,
+    "word": "cerf",
+    "gender": "Masculin",
+    "translation": "deer",
+    "createdAt": "2024-07-04T06:55:38.777Z",
+    "updatedAt": "2024-07-04T06:55:38.777Z"
+  },
+  {
+    "id": 64,
+    "word": "montagne",
+    "gender": "Féminin",
+    "translation": "mountain",
+    "createdAt": "2024-07-04T06:55:37.202Z",
+    "updatedAt": "2024-07-04T06:55:37.202Z"
+  },
+  {
+    "id": 48,
+    "word": "cuisine",
+    "gender": "Féminin",
+    "translation": "kitchen",
+    "createdAt": "2024-07-04T06:55:37.177Z",
+    "updatedAt": "2024-07-04T06:55:37.177Z"
+  },
+  {
+    "id": 236,
+    "word": "citron",
+    "gender": "Masculin",
+    "translation": "lemon",
+    "createdAt": "2024-07-04T06:55:38.809Z",
+    "updatedAt": "2024-07-04T06:55:38.809Z"
+  },
+  {
+    "id": 172,
+    "word": "arbuste",
+    "gender": "Masculin",
+    "translation": "shrub",
+    "createdAt": "2024-07-04T06:55:38.049Z",
+    "updatedAt": "2024-07-04T06:55:38.049Z"
+  },
+  {
+    "id": 71,
+    "word": "été",
+    "gender": "Masculin",
+    "translation": "summer",
+    "createdAt": "2024-07-04T06:55:37.215Z",
+    "updatedAt": "2024-07-04T06:55:37.215Z"
+  },
+  {
+    "id": 192,
+    "word": "port",
+    "gender": "Masculin",
+    "translation": "port",
+    "createdAt": "2024-07-04T06:55:38.085Z",
+    "updatedAt": "2024-07-04T06:55:38.085Z"
+  },
+  {
+    "id": 261,
+    "word": "pamplemousse",
+    "gender": "Masculin",
+    "translation": "grapefruit",
+    "createdAt": "2024-07-04T06:57:26.739Z",
+    "updatedAt": "2024-07-04T06:57:26.739Z"
+  },
+  {
+    "id": 253,
+    "word": "pantalon",
+    "gender": "Masculin",
+    "translation": "pants",
+    "createdAt": "2024-07-04T06:57:25.683Z",
+    "updatedAt": "2024-07-04T06:57:25.683Z"
+  },
+  {
+    "id": 146,
+    "word": "siège",
+    "gender": "Masculin",
+    "translation": "seat",
+    "createdAt": "2024-07-04T06:55:38.009Z",
+    "updatedAt": "2024-07-04T06:55:38.009Z"
+  },
+  {
+    "id": 95,
+    "word": "sel",
+    "gender": "Masculin",
+    "translation": "salt",
+    "createdAt": "2024-07-04T06:55:37.282Z",
+    "updatedAt": "2024-07-04T06:55:37.282Z"
+  },
+  {
+    "id": 28,
+    "word": "mer",
+    "gender": "Féminin",
+    "translation": "sea",
+    "createdAt": "2024-07-03T10:50:37.499Z",
+    "updatedAt": "2024-07-03T10:50:37.499Z"
+  },
+  {
+    "id": 193,
+    "word": "bagage",
+    "gender": "Masculin",
+    "translation": "luggage",
+    "createdAt": "2024-07-04T06:55:38.083Z",
+    "updatedAt": "2024-07-04T06:55:38.083Z"
+  },
+  {
+    "id": 237,
+    "word": "mouche",
+    "gender": "Féminin",
+    "translation": "fly",
+    "createdAt": "2024-07-04T06:55:38.811Z",
+    "updatedAt": "2024-07-04T06:55:38.811Z"
+  },
+  {
+    "id": 41,
+    "word": "bus",
+    "gender": "Masculin",
+    "translation": "bus",
+    "createdAt": "2024-07-04T06:55:37.163Z",
+    "updatedAt": "2024-07-04T06:55:37.163Z"
+  },
+  {
+    "id": 156,
+    "word": "plateau",
+    "gender": "Masculin",
+    "translation": "plateau",
+    "createdAt": "2024-07-04T06:55:38.034Z",
+    "updatedAt": "2024-07-04T06:55:38.034Z"
+  },
+  {
+    "id": 97,
+    "word": "banane",
+    "gender": "Féminin",
+    "translation": "banana",
+    "createdAt": "2024-07-04T06:55:37.282Z",
+    "updatedAt": "2024-07-04T06:55:37.282Z"
+  },
+  {
+    "id": 222,
+    "word": "château",
+    "gender": "Masculin",
+    "translation": "castle",
+    "createdAt": "2024-07-04T06:55:38.777Z",
+    "updatedAt": "2024-07-04T06:55:38.777Z"
+  },
+  {
+    "id": 151,
+    "word": "cascade",
+    "gender": "Féminin",
+    "translation": "waterfall",
+    "createdAt": "2024-07-04T06:55:38.009Z",
+    "updatedAt": "2024-07-04T06:55:38.009Z"
+  },
+  {
+    "id": 96,
+    "word": "orange",
+    "gender": "Masculin",
+    "translation": "orange",
+    "createdAt": "2024-07-04T06:55:37.282Z",
+    "updatedAt": "2024-07-04T06:55:37.282Z"
+  },
+  {
+    "id": 161,
+    "word": "vallée",
+    "gender": "Féminin",
+    "translation": "valley",
+    "createdAt": "2024-07-04T06:55:38.032Z",
+    "updatedAt": "2024-07-04T06:55:38.032Z"
+  },
+  {
+    "id": 2,
+    "word": "pomme",
+    "gender": "Féminin",
+    "translation": "apple",
+    "createdAt": "2024-07-03T10:50:36.412Z",
+    "updatedAt": "2024-07-03T10:50:36.412Z"
+  },
+  {
+    "id": 191,
+    "word": "disque dur",
+    "gender": "Masculin",
+    "translation": "hard drive",
+    "createdAt": "2024-07-04T06:55:38.083Z",
+    "updatedAt": "2024-07-04T06:55:38.083Z"
+  },
+  {
+    "id": 226,
+    "word": "riz",
+    "gender": "Masculin",
+    "translation": "rice",
+    "createdAt": "2024-07-04T06:55:38.791Z",
+    "updatedAt": "2024-07-04T06:55:38.791Z"
+  },
+  {
+    "id": 3,
+    "word": "chien",
+    "gender": "Masculin",
+    "translation": "dog",
+    "createdAt": "2024-07-03T10:50:36.452Z",
+    "updatedAt": "2024-07-03T10:50:36.452Z"
+  },
+  {
+    "id": 144,
+    "word": "hublot",
+    "gender": "Masculin",
+    "translation": "porthole",
+    "createdAt": "2024-07-04T06:55:38.007Z",
+    "updatedAt": "2024-07-04T06:55:38.007Z"
+  },
+  {
+    "id": 106,
+    "word": "glace",
+    "gender": "Féminin",
+    "translation": "ice cream",
+    "createdAt": "2024-07-04T06:55:37.295Z",
+    "updatedAt": "2024-07-04T06:55:37.295Z"
+  },
+  {
+    "id": 62,
+    "word": "étoiles",
+    "gender": "Féminin",
+    "translation": "stars",
+    "createdAt": "2024-07-04T06:55:37.198Z",
+    "updatedAt": "2024-07-04T06:55:37.198Z"
+  },
+  {
+    "id": 132,
+    "word": "village",
+    "gender": "Masculin",
+    "translation": "village",
+    "createdAt": "2024-07-04T06:55:37.980Z",
+    "updatedAt": "2024-07-04T06:55:37.980Z"
+  },
+  {
+    "id": 188,
+    "word": "clavier",
+    "gender": "Masculin",
+    "translation": "keyboard",
+    "createdAt": "2024-07-04T06:55:38.074Z",
+    "updatedAt": "2024-07-04T06:55:38.074Z"
+  },
+  {
+    "id": 113,
+    "word": "congélateur",
+    "gender": "Masculin",
+    "translation": "freezer",
+    "createdAt": "2024-07-04T06:55:37.953Z",
+    "updatedAt": "2024-07-04T06:55:37.953Z"
+  },
+  {
+    "id": 197,
+    "word": "ticket",
+    "gender": "Masculin",
+    "translation": "ticket",
+    "createdAt": "2024-07-04T06:55:38.085Z",
+    "updatedAt": "2024-07-04T06:55:38.085Z"
+  },
+  {
+    "id": 199,
+    "word": "fantôme",
+    "gender": "Masculin",
+    "translation": "ghost",
+    "createdAt": "2024-07-04T06:55:38.729Z",
+    "updatedAt": "2024-07-04T06:55:38.729Z"
+  },
+  {
+    "id": 50,
+    "word": "chambre",
+    "gender": "Féminin",
+    "translation": "bedroom",
+    "createdAt": "2024-07-04T06:55:37.184Z",
+    "updatedAt": "2024-07-04T06:55:37.184Z"
+  },
+  {
+    "id": 5,
+    "word": "chat",
+    "gender": "Masculin",
+    "translation": "cat",
+    "createdAt": "2024-07-03T10:50:36.532Z",
+    "updatedAt": "2024-07-03T10:50:36.532Z"
+  },
+  {
+    "id": 51,
+    "word": "salle",
+    "gender": "Féminin",
+    "translation": "room",
+    "createdAt": "2024-07-04T06:55:37.178Z",
+    "updatedAt": "2024-07-04T06:55:37.178Z"
+  },
+  {
+    "id": 126,
+    "word": "journal",
+    "gender": "Masculin",
+    "translation": "newspaper",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 154,
+    "word": "oreiller",
+    "gender": "Masculin",
+    "translation": "pillow",
+    "createdAt": "2024-07-04T06:55:38.022Z",
+    "updatedAt": "2024-07-04T06:55:38.022Z"
+  },
+  {
+    "id": 85,
+    "word": "beurre",
+    "gender": "Masculin",
+    "translation": "butter",
+    "createdAt": "2024-07-04T06:55:37.269Z",
+    "updatedAt": "2024-07-04T06:55:37.269Z"
+  },
+  {
+    "id": 141,
+    "word": "campagne",
+    "gender": "Féminin",
+    "translation": "countryside",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 16,
+    "word": "sœur",
+    "gender": "Féminin",
+    "translation": "sister",
+    "createdAt": "2024-07-03T10:50:36.985Z",
+    "updatedAt": "2024-07-03T10:50:36.985Z"
+  },
+  {
+    "id": 203,
+    "word": "maman",
+    "gender": "Féminin",
+    "translation": "mom",
+    "createdAt": "2024-07-04T06:55:38.728Z",
+    "updatedAt": "2024-07-04T06:55:38.728Z"
+  },
+  {
+    "id": 181,
+    "word": "réfrigérateur",
+    "gender": "Masculin",
+    "translation": "refrigerator",
+    "createdAt": "2024-07-04T06:55:38.063Z",
+    "updatedAt": "2024-07-04T06:55:38.063Z"
+  },
+  {
+    "id": 177,
+    "word": "grille-pain",
+    "gender": "Masculin",
+    "translation": "toaster",
+    "createdAt": "2024-07-04T06:55:38.058Z",
+    "updatedAt": "2024-07-04T06:55:38.058Z"
+  },
+  {
+    "id": 256,
+    "word": "cour",
+    "gender": "Féminin",
+    "translation": "yard",
+    "createdAt": "2024-07-04T06:57:26.115Z",
+    "updatedAt": "2024-07-04T06:57:26.115Z"
+  },
+  {
+    "id": 159,
+    "word": "micro-ondes",
+    "gender": "Masculin",
+    "translation": "microwave",
+    "createdAt": "2024-07-04T06:55:38.024Z",
+    "updatedAt": "2024-07-04T06:55:38.024Z"
+  },
+  {
+    "id": 165,
+    "word": "prairie",
+    "gender": "Féminin",
+    "translation": "meadow",
+    "createdAt": "2024-07-04T06:55:38.047Z",
+    "updatedAt": "2024-07-04T06:55:38.047Z"
+  },
+  {
+    "id": 45,
+    "word": "université",
+    "gender": "Féminin",
+    "translation": "university",
+    "createdAt": "2024-07-04T06:55:37.175Z",
+    "updatedAt": "2024-07-04T06:55:37.175Z"
+  },
+  {
+    "id": 34,
+    "word": "crayon",
+    "gender": "Masculin",
+    "translation": "pencil",
+    "createdAt": "2024-07-04T06:55:37.159Z",
+    "updatedAt": "2024-07-04T06:55:37.159Z"
+  },
+  {
+    "id": 190,
+    "word": "fichier",
+    "gender": "Masculin",
+    "translation": "file",
+    "createdAt": "2024-07-04T06:55:38.074Z",
+    "updatedAt": "2024-07-04T06:55:38.074Z"
+  },
+  {
+    "id": 245,
+    "word": "serviette",
+    "gender": "Féminin",
+    "translation": "towel",
+    "createdAt": "2024-07-04T06:57:24.729Z",
+    "updatedAt": "2024-07-04T06:57:24.729Z"
+  },
+  {
+    "id": 11,
+    "word": "garçon",
+    "gender": "Masculin",
+    "translation": "boy",
+    "createdAt": "2024-07-03T10:50:36.781Z",
+    "updatedAt": "2024-07-03T10:50:36.781Z"
+  },
+  {
+    "id": 136,
+    "word": "appartement",
+    "gender": "Masculin",
+    "translation": "apartment",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 228,
+    "word": "planche",
+    "gender": "Féminin",
+    "translation": "board",
+    "createdAt": "2024-07-04T06:55:38.798Z",
+    "updatedAt": "2024-07-04T06:55:38.798Z"
+  },
+  {
+    "id": 142,
+    "word": "pilote",
+    "gender": "Masculin",
+    "translation": "pilot",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 38,
+    "word": "chaise",
+    "gender": "Féminin",
+    "translation": "chair",
+    "createdAt": "2024-07-04T06:55:37.162Z",
+    "updatedAt": "2024-07-04T06:55:37.162Z"
+  },
+  {
+    "id": 229,
+    "word": "rousseur",
+    "gender": "Féminin",
+    "translation": "redness",
+    "createdAt": "2024-07-04T06:55:38.797Z",
+    "updatedAt": "2024-07-04T06:55:38.797Z"
+  },
+  {
+    "id": 22,
+    "word": "fête",
+    "gender": "Féminin",
+    "translation": "party",
+    "createdAt": "2024-07-03T10:50:37.229Z",
+    "updatedAt": "2024-07-03T10:50:37.229Z"
+  },
+  {
+    "id": 194,
+    "word": "valise",
+    "gender": "Féminin",
+    "translation": "suitcase",
+    "createdAt": "2024-07-04T06:55:38.083Z",
+    "updatedAt": "2024-07-04T06:55:38.083Z"
+  },
+  {
+    "id": 180,
+    "word": "orage",
+    "gender": "Masculin",
+    "translation": "storm",
+    "createdAt": "2024-07-04T06:55:38.063Z",
+    "updatedAt": "2024-07-04T06:55:38.063Z"
+  },
+  {
+    "id": 178,
+    "word": "nuage",
+    "gender": "Masculin",
+    "translation": "cloud",
+    "createdAt": "2024-07-04T06:55:38.058Z",
+    "updatedAt": "2024-07-04T06:55:38.058Z"
+  },
+  {
+    "id": 143,
+    "word": "continent",
+    "gender": "Masculin",
+    "translation": "continent",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 88,
+    "word": "restaurant",
+    "gender": "Masculin",
+    "translation": "restaurant",
+    "createdAt": "2024-07-04T06:55:37.270Z",
+    "updatedAt": "2024-07-04T06:55:37.270Z"
+  },
+  {
+    "id": 112,
+    "word": "étagère",
+    "gender": "Féminin",
+    "translation": "shelf",
+    "createdAt": "2024-07-04T06:55:37.953Z",
+    "updatedAt": "2024-07-04T06:55:37.953Z"
+  },
+  {
+    "id": 189,
+    "word": "souris",
+    "gender": "Féminin",
+    "translation": "mouse",
+    "createdAt": "2024-07-04T06:55:38.074Z",
+    "updatedAt": "2024-07-04T06:55:38.074Z"
+  },
+  {
+    "id": 210,
+    "word": "saison",
+    "gender": "Féminin",
+    "translation": "season",
+    "createdAt": "2024-07-04T06:55:38.744Z",
+    "updatedAt": "2024-07-04T06:55:38.744Z"
+  },
+  {
+    "id": 77,
+    "word": "voisin",
+    "gender": "Masculin",
+    "translation": "neighbor",
+    "createdAt": "2024-07-04T06:55:37.242Z",
+    "updatedAt": "2024-07-04T06:55:37.242Z"
+  },
+  {
+    "id": 182,
+    "word": "aspirateur",
+    "gender": "Masculin",
+    "translation": "vacuum cleaner",
+    "createdAt": "2024-07-04T06:55:38.063Z",
+    "updatedAt": "2024-07-04T06:55:38.063Z"
+  },
+  {
+    "id": 166,
+    "word": "évier",
+    "gender": "Masculin",
+    "translation": "sink",
+    "createdAt": "2024-07-04T06:55:38.036Z",
+    "updatedAt": "2024-07-04T06:55:38.036Z"
+  },
+  {
+    "id": 257,
+    "word": "sac",
+    "gender": "Masculin",
+    "translation": "bag",
+    "createdAt": "2024-07-04T06:57:26.401Z",
+    "updatedAt": "2024-07-04T06:57:26.401Z"
+  },
+  {
+    "id": 67,
+    "word": "soir",
+    "gender": "Masculin",
+    "translation": "evening",
+    "createdAt": "2024-07-04T06:55:37.213Z",
+    "updatedAt": "2024-07-04T06:55:37.213Z"
+  },
+  {
+    "id": 252,
+    "word": "buffet",
+    "gender": "Masculin",
+    "translation": "buffet",
+    "createdAt": "2024-07-04T06:57:25.530Z",
+    "updatedAt": "2024-07-04T06:57:25.530Z"
+  },
+  {
+    "id": 249,
+    "word": "bouquet",
+    "gender": "Masculin",
+    "translation": "bouquet",
+    "createdAt": "2024-07-04T06:57:25.316Z",
+    "updatedAt": "2024-07-04T06:57:25.316Z"
+  },
+  {
+    "id": 198,
+    "word": "falaise",
+    "gender": "Féminin",
+    "translation": "cliff",
+    "createdAt": "2024-07-04T06:55:38.086Z",
+    "updatedAt": "2024-07-04T06:55:38.086Z"
+  },
+  {
+    "id": 81,
+    "word": "ami",
+    "gender": "Masculin",
+    "translation": "friend",
+    "createdAt": "2024-07-04T06:55:37.243Z",
+    "updatedAt": "2024-07-04T06:55:37.243Z"
+  },
+  {
+    "id": 91,
+    "word": "lait",
+    "gender": "Masculin",
+    "translation": "milk",
+    "createdAt": "2024-07-04T06:55:37.270Z",
+    "updatedAt": "2024-07-04T06:55:37.270Z"
+  },
+  {
+    "id": 150,
+    "word": "grotte",
+    "gender": "Féminin",
+    "translation": "cave",
+    "createdAt": "2024-07-04T06:55:38.020Z",
+    "updatedAt": "2024-07-04T06:55:38.020Z"
+  },
+  {
+    "id": 238,
+    "word": "miel",
+    "gender": "Masculin",
+    "translation": "honey",
+    "createdAt": "2024-07-04T06:55:38.809Z",
+    "updatedAt": "2024-07-04T06:55:38.809Z"
+  },
+  {
+    "id": 103,
+    "word": "gâteau",
+    "gender": "Masculin",
+    "translation": "cake",
+    "createdAt": "2024-07-04T06:55:37.295Z",
+    "updatedAt": "2024-07-04T06:55:37.295Z"
+  },
+  {
+    "id": 195,
+    "word": "poubelle",
+    "gender": "Féminin",
+    "translation": "trash can",
+    "createdAt": "2024-07-04T06:55:38.074Z",
+    "updatedAt": "2024-07-04T06:55:38.074Z"
+  },
+  {
+    "id": 17,
+    "word": "roi",
+    "gender": "Masculin",
+    "translation": "king",
+    "createdAt": "2024-07-03T10:50:37.026Z",
+    "updatedAt": "2024-07-03T10:50:37.026Z"
+  },
+  {
+    "id": 153,
+    "word": "lavabo",
+    "gender": "Masculin",
+    "translation": "sink",
+    "createdAt": "2024-07-04T06:55:38.022Z",
+    "updatedAt": "2024-07-04T06:55:38.022Z"
+  },
+  {
+    "id": 108,
+    "word": "chocolat",
+    "gender": "Masculin",
+    "translation": "chocolate",
+    "createdAt": "2024-07-04T06:55:37.309Z",
+    "updatedAt": "2024-07-04T06:55:37.309Z"
+  },
+  {
+    "id": 225,
+    "word": "gaufre",
+    "gender": "Féminin",
+    "translation": "waffle",
+    "createdAt": "2024-07-04T06:55:38.777Z",
+    "updatedAt": "2024-07-04T06:55:38.777Z"
+  },
+  {
+    "id": 251,
+    "word": "grenouille",
+    "gender": "Féminin",
+    "translation": "frog",
+    "createdAt": "2024-07-04T06:57:25.463Z",
+    "updatedAt": "2024-07-04T06:57:25.463Z"
+  },
+  {
+    "id": 147,
+    "word": "passeport",
+    "gender": "Masculin",
+    "translation": "passport",
+    "createdAt": "2024-07-04T06:55:38.009Z",
+    "updatedAt": "2024-07-04T06:55:38.009Z"
+  },
+  {
+    "id": 214,
+    "word": "trou",
+    "gender": "Masculin",
+    "translation": "hole",
+    "createdAt": "2024-07-04T06:55:38.756Z",
+    "updatedAt": "2024-07-04T06:55:38.756Z"
+  },
+  {
+    "id": 7,
+    "word": "stylo",
+    "gender": "Masculin",
+    "translation": "pen",
+    "createdAt": "2024-07-03T10:50:36.613Z",
+    "updatedAt": "2024-07-03T10:50:36.613Z"
+  },
+  {
+    "id": 25,
+    "word": "cheval",
+    "gender": "Masculin",
+    "translation": "horse",
+    "createdAt": "2024-07-03T10:50:37.355Z",
+    "updatedAt": "2024-07-03T10:50:37.355Z"
+  },
+  {
+    "id": 239,
+    "word": "arbre",
+    "gender": "Masculin",
+    "translation": "tree",
+    "createdAt": "2024-07-04T06:55:38.811Z",
+    "updatedAt": "2024-07-04T06:55:38.811Z"
+  },
+  {
+    "id": 21,
+    "word": "travail",
+    "gender": "Masculin",
+    "translation": "work",
+    "createdAt": "2024-07-03T10:50:37.190Z",
+    "updatedAt": "2024-07-03T10:50:37.190Z"
+  },
+  {
+    "id": 224,
+    "word": "lapin",
+    "gender": "Masculin",
+    "translation": "rabbit",
+    "createdAt": "2024-07-04T06:55:38.765Z",
+    "updatedAt": "2024-07-04T06:55:38.765Z"
+  },
+  {
+    "id": 32,
+    "word": "fenêtre",
+    "gender": "Féminin",
+    "translation": "window",
+    "createdAt": "2024-07-04T06:55:37.149Z",
+    "updatedAt": "2024-07-04T06:55:37.149Z"
+  },
+  {
+    "id": 74,
+    "word": "printemps",
+    "gender": "Masculin",
+    "translation": "spring",
+    "createdAt": "2024-07-04T06:55:37.215Z",
+    "updatedAt": "2024-07-04T06:55:37.215Z"
+  },
+  {
+    "id": 42,
+    "word": "avion",
+    "gender": "Masculin",
+    "translation": "plane",
+    "createdAt": "2024-07-04T06:55:37.163Z",
+    "updatedAt": "2024-07-04T06:55:37.163Z"
+  },
+  {
+    "id": 76,
+    "word": "famille",
+    "gender": "Féminin",
+    "translation": "family",
+    "createdAt": "2024-07-04T06:55:37.226Z",
+    "updatedAt": "2024-07-04T06:55:37.226Z"
+  },
+  {
+    "id": 93,
+    "word": "sucre",
+    "gender": "Masculin",
+    "translation": "sugar",
+    "createdAt": "2024-07-04T06:55:37.281Z",
+    "updatedAt": "2024-07-04T06:55:37.281Z"
+  },
+  {
+    "id": 255,
+    "word": "couverture",
+    "gender": "Féminin",
+    "translation": "blanket",
+    "createdAt": "2024-07-04T06:57:25.912Z",
+    "updatedAt": "2024-07-04T06:57:25.912Z"
+  },
+  {
+    "id": 114,
+    "word": "fax",
+    "gender": "Masculin",
+    "translation": "fax",
+    "createdAt": "2024-07-04T06:55:37.953Z",
+    "updatedAt": "2024-07-04T06:55:37.953Z"
+  },
+  {
+    "id": 259,
+    "word": "cri",
+    "gender": "Masculin",
+    "translation": "scream",
+    "createdAt": "2024-07-04T06:57:26.592Z",
+    "updatedAt": "2024-07-04T06:57:26.592Z"
+  },
+  {
+    "id": 19,
+    "word": "soleil",
+    "gender": "Masculin",
+    "translation": "sun",
+    "createdAt": "2024-07-03T10:50:37.109Z",
+    "updatedAt": "2024-07-03T10:50:37.109Z"
+  },
+  {
+    "id": 60,
+    "word": "lac",
+    "gender": "Masculin",
+    "translation": "lake",
+    "createdAt": "2024-07-04T06:55:37.189Z",
+    "updatedAt": "2024-07-04T06:55:37.189Z"
+  },
+  {
+    "id": 211,
+    "word": "copain",
+    "gender": "Masculin",
+    "translation": "friend",
+    "createdAt": "2024-07-04T06:55:38.744Z",
+    "updatedAt": "2024-07-04T06:55:38.744Z"
+  },
+  {
+    "id": 169,
+    "word": "sable",
+    "gender": "Masculin",
+    "translation": "sand",
+    "createdAt": "2024-07-04T06:55:38.049Z",
+    "updatedAt": "2024-07-04T06:55:38.049Z"
+  },
+  {
+    "id": 4,
+    "word": "maison",
+    "gender": "Féminin",
+    "translation": "house",
+    "createdAt": "2024-07-03T10:50:36.492Z",
+    "updatedAt": "2024-07-03T10:50:36.492Z"
+  },
+  {
+    "id": 39,
+    "word": "route",
+    "gender": "Féminin",
+    "translation": "road",
+    "createdAt": "2024-07-04T06:55:37.162Z",
+    "updatedAt": "2024-07-04T06:55:37.162Z"
+  },
+  {
+    "id": 179,
+    "word": "écran",
+    "gender": "Masculin",
+    "translation": "screen",
+    "createdAt": "2024-07-04T06:55:38.063Z",
+    "updatedAt": "2024-07-04T06:55:38.063Z"
+  },
+  {
+    "id": 157,
+    "word": "colline",
+    "gender": "Féminin",
+    "translation": "hill",
+    "createdAt": "2024-07-04T06:55:38.034Z",
+    "updatedAt": "2024-07-04T06:55:38.034Z"
+  },
+  {
+    "id": 70,
+    "word": "minute",
+    "gender": "Féminin",
+    "translation": "minute",
+    "createdAt": "2024-07-04T06:55:37.215Z",
+    "updatedAt": "2024-07-04T06:55:37.215Z"
+  },
+  {
+    "id": 160,
+    "word": "sommet",
+    "gender": "Masculin",
+    "translation": "summit",
+    "createdAt": "2024-07-04T06:55:38.034Z",
+    "updatedAt": "2024-07-04T06:55:38.034Z"
+  },
+  {
+    "id": 118,
+    "word": "scanner",
+    "gender": "Masculin",
+    "translation": "scanner",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 138,
+    "word": "baignoire",
+    "gender": "Féminin",
+    "translation": "bathtub",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 78,
+    "word": "fils",
+    "gender": "Masculin",
+    "translation": "son",
+    "createdAt": "2024-07-04T06:55:37.242Z",
+    "updatedAt": "2024-07-04T06:55:37.242Z"
+  },
+  {
+    "id": 40,
+    "word": "vélo",
+    "gender": "Masculin",
+    "translation": "bicycle",
+    "createdAt": "2024-07-04T06:55:37.163Z",
+    "updatedAt": "2024-07-04T06:55:37.163Z"
+  },
+  {
+    "id": 145,
+    "word": "océan",
+    "gender": "Masculin",
+    "translation": "ocean",
+    "createdAt": "2024-07-04T06:55:38.007Z",
+    "updatedAt": "2024-07-04T06:55:38.007Z"
+  },
+  {
+    "id": 247,
+    "word": "sang",
+    "gender": "Masculin",
+    "translation": "blood",
+    "createdAt": "2024-07-04T06:57:25.105Z",
+    "updatedAt": "2024-07-04T06:57:25.105Z"
+  },
+  {
+    "id": 57,
+    "word": "parc",
+    "gender": "Masculin",
+    "translation": "park",
+    "createdAt": "2024-07-04T06:55:37.188Z",
+    "updatedAt": "2024-07-04T06:55:37.188Z"
+  },
+  {
+    "id": 119,
+    "word": "courrier",
+    "gender": "Masculin",
+    "translation": "mail",
+    "createdAt": "2024-07-04T06:55:37.967Z",
+    "updatedAt": "2024-07-04T06:55:37.967Z"
+  },
+  {
+    "id": 15,
+    "word": "frère",
+    "gender": "Masculin",
+    "translation": "brother",
+    "createdAt": "2024-07-03T10:50:36.945Z",
+    "updatedAt": "2024-07-03T10:50:36.945Z"
+  },
+  {
+    "id": 30,
+    "word": "pluie",
+    "gender": "Féminin",
+    "translation": "rain",
+    "createdAt": "2024-07-03T10:50:37.577Z",
+    "updatedAt": "2024-07-03T10:50:37.577Z"
+  },
+  {
+    "id": 105,
+    "word": "poulet",
+    "gender": "Masculin",
+    "translation": "chicken",
+    "createdAt": "2024-07-04T06:55:37.295Z",
+    "updatedAt": "2024-07-04T06:55:37.295Z"
+  },
+  {
+    "id": 44,
+    "word": "bateau",
+    "gender": "Masculin",
+    "translation": "boat",
+    "createdAt": "2024-07-04T06:55:37.173Z",
+    "updatedAt": "2024-07-04T06:55:37.173Z"
+  },
+  {
+    "id": 217,
+    "word": "médaille",
+    "gender": "Féminin",
+    "translation": "medal",
+    "createdAt": "2024-07-04T06:55:38.757Z",
+    "updatedAt": "2024-07-04T06:55:38.757Z"
+  },
+  {
+    "id": 152,
+    "word": "volcan",
+    "gender": "Masculin",
+    "translation": "volcano",
+    "createdAt": "2024-07-04T06:55:38.009Z",
+    "updatedAt": "2024-07-04T06:55:38.009Z"
+  },
+  {
+    "id": 137,
+    "word": "carte",
+    "gender": "Féminin",
+    "translation": "card",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 86,
+    "word": "fromage",
+    "gender": "Masculin",
+    "translation": "cheese",
+    "createdAt": "2024-07-04T06:55:37.268Z",
+    "updatedAt": "2024-07-04T06:55:37.268Z"
+  },
+  {
+    "id": 90,
+    "word": "café",
+    "gender": "Masculin",
+    "translation": "coffee",
+    "createdAt": "2024-07-04T06:55:37.270Z",
+    "updatedAt": "2024-07-04T06:55:37.270Z"
+  },
+  {
+    "id": 94,
+    "word": "carotte",
+    "gender": "Féminin",
+    "translation": "carrot",
+    "createdAt": "2024-07-04T06:55:37.282Z",
+    "updatedAt": "2024-07-04T06:55:37.282Z"
+  },
+  {
+    "id": 46,
+    "word": "école",
+    "gender": "Féminin",
+    "translation": "school",
+    "createdAt": "2024-07-04T06:55:37.171Z",
+    "updatedAt": "2024-07-04T06:55:37.171Z"
+  },
+  {
+    "id": 240,
+    "word": "graine",
+    "gender": "Féminin",
+    "translation": "seed",
+    "createdAt": "2024-07-04T06:55:38.824Z",
+    "updatedAt": "2024-07-04T06:55:38.824Z"
+  },
+  {
+    "id": 208,
+    "word": "parapluie",
+    "gender": "Masculin",
+    "translation": "umbrella",
+    "createdAt": "2024-07-04T06:55:38.743Z",
+    "updatedAt": "2024-07-04T06:55:38.743Z"
+  },
+  {
+    "id": 158,
+    "word": "frontière",
+    "gender": "Féminin",
+    "translation": "border",
+    "createdAt": "2024-07-04T06:55:38.024Z",
+    "updatedAt": "2024-07-04T06:55:38.024Z"
+  },
+  {
+    "id": 43,
+    "word": "train",
+    "gender": "Masculin",
+    "translation": "train",
+    "createdAt": "2024-07-04T06:55:37.163Z",
+    "updatedAt": "2024-07-04T06:55:37.163Z"
+  },
+  {
+    "id": 104,
+    "word": "viande",
+    "gender": "Féminin",
+    "translation": "meat",
+    "createdAt": "2024-07-04T06:55:37.295Z",
+    "updatedAt": "2024-07-04T06:55:37.295Z"
+  },
+  {
+    "id": 164,
+    "word": "couloir",
+    "gender": "Masculin",
+    "translation": "corridor",
+    "createdAt": "2024-07-04T06:55:38.047Z",
+    "updatedAt": "2024-07-04T06:55:38.047Z"
+  },
+  {
+    "id": 101,
+    "word": "dessert",
+    "gender": "Masculin",
+    "translation": "dessert",
+    "createdAt": "2024-07-04T06:55:37.294Z",
+    "updatedAt": "2024-07-04T06:55:37.294Z"
+  },
+  {
+    "id": 140,
+    "word": "pays",
+    "gender": "Masculin",
+    "translation": "country",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 149,
+    "word": "fleuve",
+    "gender": "Masculin",
+    "translation": "river",
+    "createdAt": "2024-07-04T06:55:38.009Z",
+    "updatedAt": "2024-07-04T06:55:38.009Z"
+  },
+  {
+    "id": 263,
+    "word": "genou",
+    "gender": "Masculin",
+    "translation": "knee",
+    "createdAt": "2024-07-04T06:57:26.928Z",
+    "updatedAt": "2024-07-04T06:57:26.928Z"
+  },
+  {
+    "id": 250,
+    "word": "boîte",
+    "gender": "Féminin",
+    "translation": "box",
+    "createdAt": "2024-07-04T06:57:25.381Z",
+    "updatedAt": "2024-07-04T06:57:25.381Z"
+  },
+  {
+    "id": 162,
+    "word": "bois",
+    "gender": "Masculin",
+    "translation": "wood",
+    "createdAt": "2024-07-04T06:55:38.035Z",
+    "updatedAt": "2024-07-04T06:55:38.035Z"
+  },
+  {
+    "id": 82,
+    "word": "magasin",
+    "gender": "Masculin",
+    "translation": "store",
+    "createdAt": "2024-07-04T06:55:37.243Z",
+    "updatedAt": "2024-07-04T06:55:37.243Z"
+  },
+  {
+    "id": 135,
+    "word": "capitaine",
+    "gender": "Masculin",
+    "translation": "captain",
+    "createdAt": "2024-07-04T06:55:37.981Z",
+    "updatedAt": "2024-07-04T06:55:37.981Z"
+  },
+  {
+    "id": 207,
+    "word": "renard",
+    "gender": "Masculin",
+    "translation": "fox",
+    "createdAt": "2024-07-04T06:55:38.741Z",
+    "updatedAt": "2024-07-04T06:55:38.741Z"
+  },
+  {
+    "id": 148,
+    "word": "chemin",
+    "gender": "Masculin",
+    "translation": "path",
+    "createdAt": "2024-07-04T06:55:38.020Z",
+    "updatedAt": "2024-07-04T06:55:38.020Z"
+  },
+  {
+    "id": 163,
+    "word": "étang",
+    "gender": "Masculin",
+    "translation": "pond",
+    "createdAt": "2024-07-04T06:55:38.036Z",
+    "updatedAt": "2024-07-04T06:55:38.036Z"
+  },
+  {
+    "id": 55,
+    "word": "lit",
+    "gender": "Masculin",
+    "translation": "bed",
+    "createdAt": "2024-07-04T06:55:37.188Z",
+    "updatedAt": "2024-07-04T06:55:37.188Z"
+  },
+  {
+    "id": 134,
+    "word": "billet",
+    "gender": "Masculin",
+    "translation": "ticket",
+    "createdAt": "2024-07-04T06:55:37.995Z",
+    "updatedAt": "2024-07-04T06:55:37.995Z"
+  },
+  {
+    "id": 49,
+    "word": "élève",
+    "gender": "Masculin",
+    "translation": "student",
+    "createdAt": "2024-07-04T06:55:37.178Z",
+    "updatedAt": "2024-07-04T06:55:37.178Z"
+  },
+  {
+    "id": 116,
+    "word": "placard",
+    "gender": "Masculin",
+    "translation": "cupboard",
+    "createdAt": "2024-07-04T06:55:37.953Z",
+    "updatedAt": "2024-07-04T06:55:37.953Z"
+  },
+  {
+    "id": 75,
+    "word": "hiver",
+    "gender": "Masculin",
+    "translation": "winter",
+    "createdAt": "2024-07-04T06:55:37.226Z",
+    "updatedAt": "2024-07-04T06:55:37.226Z"
+  },
+  {
+    "id": 167,
+    "word": "plaine",
+    "gender": "Féminin",
+    "translation": "plain",
+    "createdAt": "2024-07-04T06:55:38.036Z",
+    "updatedAt": "2024-07-04T06:55:38.036Z"
+  },
+  {
+    "id": 20,
+    "word": "lune",
+    "gender": "Féminin",
+    "translation": "moon",
+    "createdAt": "2024-07-03T10:50:37.150Z",
+    "updatedAt": "2024-07-03T10:50:37.150Z"
+  },
+  {
+    "id": 47,
+    "word": "cahier",
+    "gender": "Masculin",
+    "translation": "notebook",
+    "createdAt": "2024-07-04T06:55:37.177Z",
+    "updatedAt": "2024-07-04T06:55:37.177Z"
+  },
+  {
+    "id": 220,
+    "word": "jus",
+    "gender": "Masculin",
+    "translation": "juice",
+    "createdAt": "2024-07-04T06:55:38.777Z",
+    "updatedAt": "2024-07-04T06:55:38.777Z"
+  },
+  {
+    "id": 170,
+    "word": "rocher",
+    "gender": "Masculin",
+    "translation": "rock",
+    "createdAt": "2024-07-04T06:55:38.047Z",
+    "updatedAt": "2024-07-04T06:55:38.047Z"
+  },
+  {
+    "id": 246,
+    "word": "hibou",
+    "gender": "Masculin",
+    "translation": "owl",
+    "createdAt": "2024-07-04T06:57:25.011Z",
+    "updatedAt": "2024-07-04T06:57:25.011Z"
+  },
+  {
+    "id": 171,
+    "word": "galet",
+    "gender": "Masculin",
+    "translation": "pebble",
+    "createdAt": "2024-07-04T06:55:38.049Z",
+    "updatedAt": "2024-07-04T06:55:38.049Z"
+  },
+  {
+    "id": 258,
+    "word": "film",
+    "gender": "Masculin",
+    "translation": "movie",
+    "createdAt": "2024-07-04T06:57:26.470Z",
+    "updatedAt": "2024-07-04T06:57:26.470Z"
+  },
+  {
+    "id": 24,
+    "word": "salade",
+    "gender": "Féminin",
+    "translation": "salad",
+    "createdAt": "2024-07-03T10:50:37.310Z",
+    "updatedAt": "2024-07-03T10:50:37.310Z"
+  },
+  {
+    "id": 241,
+    "word": "rose",
+    "gender": "Féminin",
+    "translation": "rose",
+    "createdAt": "2024-07-04T06:55:38.811Z",
+    "updatedAt": "2024-07-04T06:55:38.811Z"
+  },
+  {
+    "id": 23,
+    "word": "pain",
+    "gender": "Masculin",
+    "translation": "bread",
+    "createdAt": "2024-07-03T10:50:37.269Z",
+    "updatedAt": "2024-07-03T10:50:37.269Z"
+  },
+  {
+    "id": 27,
+    "word": "poisson",
+    "gender": "Masculin",
+    "translation": "fish",
+    "createdAt": "2024-07-03T10:50:37.450Z",
+    "updatedAt": "2024-07-03T10:50:37.450Z"
+  },
+  {
+    "id": 12,
+    "word": "fille",
+    "gender": "Féminin",
+    "translation": "girl",
+    "createdAt": "2024-07-03T10:50:36.823Z",
+    "updatedAt": "2024-07-03T10:50:36.823Z"
+  },
+  {
+    "id": 102,
+    "word": "porc",
+    "gender": "Masculin",
+    "translation": "pork",
+    "createdAt": "2024-07-04T06:55:37.295Z",
+    "updatedAt": "2024-07-04T06:55:37.295Z"
+  },
+  {
+    "id": 200,
+    "word": "boucher",
+    "gender": "Masculin",
+    "translation": "butcher",
+    "createdAt": "2024-07-04T06:55:38.729Z",
+    "updatedAt": "2024-07-04T06:55:38.729Z"
+  },
+  {
+    "id": 29,
+    "word": "vent",
+    "gender": "Masculin",
+    "translation": "wind",
+    "createdAt": "2024-07-03T10:50:37.539Z",
+    "updatedAt": "2024-07-03T10:50:37.539Z"
+  },
+  {
+    "id": 176,
+    "word": "mixeur",
+    "gender": "Masculin",
+    "translation": "blender",
+    "createdAt": "2024-07-04T06:55:38.049Z",
+    "updatedAt": "2024-07-04T06:55:38.049Z"
+  },
+  {
+    "id": 84,
+    "word": "argent",
+    "gender": "Masculin",
+    "translation": "money",
+    "createdAt": "2024-07-04T06:55:37.243Z",
+    "updatedAt": "2024-07-04T06:55:37.243Z"
+  },
+  {
+    "id": 196,
+    "word": "imprimante",
+    "gender": "Féminin",
+    "translation": "printer",
+    "createdAt": "2024-07-04T06:55:38.085Z",
+    "updatedAt": "2024-07-04T06:55:38.085Z"
+  },
+  {
+    "id": 213,
+    "word": "plage",
+    "gender": "Féminin",
+    "translation": "beach",
+    "createdAt": "2024-07-04T06:55:38.756Z",
+    "updatedAt": "2024-07-04T06:55:38.756Z"
+  },
+  {
+    "id": 212,
+    "word": "concombre",
+    "gender": "Masculin",
+    "translation": "cucumber",
+    "createdAt": "2024-07-04T06:55:38.752Z",
+    "updatedAt": "2024-07-04T06:55:38.752Z"
+  },
+  {
+    "id": 187,
+    "word": "balai",
+    "gender": "Masculin",
+    "translation": "broom",
+    "createdAt": "2024-07-04T06:55:38.073Z",
+    "updatedAt": "2024-07-04T06:55:38.073Z"
+  },
+  {
+    "id": 185,
+    "word": "bureau",
+    "gender": "Masculin",
+    "translation": "desk",
+    "createdAt": "2024-07-04T06:55:38.071Z",
+    "updatedAt": "2024-07-04T06:55:38.071Z"
+  },
+  {
+    "id": 98,
+    "word": "pomme de terre",
+    "gender": "Féminin",
+    "translation": "potato",
+    "createdAt": "2024-07-04T06:55:37.282Z",
+    "updatedAt": "2024-07-04T06:55:37.282Z"
+  },
+  {
+    "id": 186,
+    "word": "ville",
+    "gender": "Féminin",
+    "translation": "city",
+    "createdAt": "2024-07-04T06:55:38.071Z",
+    "updatedAt": "2024-07-04T06:55:38.071Z"
+  },
+  {
+    "id": 92,
+    "word": "thé",
+    "gender": "Masculin",
+    "translation": "tea",
+    "createdAt": "2024-07-04T06:55:37.270Z",
+    "updatedAt": "2024-07-04T06:55:37.270Z"
+  },
+  {
+    "id": 183,
+    "word": "tiroir",
+    "gender": "Masculin",
+    "translation": "drawer",
+    "createdAt": "2024-07-04T06:55:38.063Z",
+    "updatedAt": "2024-07-04T06:55:38.063Z"
+  },
+  {
+    "id": 221,
+    "word": "carrelage",
+    "gender": "Masculin",
+    "translation": "tile",
+    "createdAt": "2024-07-04T06:55:38.776Z",
+    "updatedAt": "2024-07-04T06:55:38.776Z"
+  },
+  {
+    "id": 6,
+    "word": "voiture",
+    "gender": "Féminin",
+    "translation": "car",
+    "createdAt": "2024-07-03T10:50:36.573Z",
+    "updatedAt": "2024-07-03T10:50:36.573Z"
+  },
+  {
+    "id": 72,
+    "word": "année",
+    "gender": "Féminin",
+    "translation": "year",
+    "createdAt": "2024-07-04T06:55:37.213Z",
+    "updatedAt": "2024-07-04T06:55:37.213Z"
+  },
+  {
+    "id": 10,
+    "word": "nuit",
+    "gender": "Féminin",
+    "translation": "night",
+    "createdAt": "2024-07-03T10:50:36.739Z",
+    "updatedAt": "2024-07-03T10:50:36.739Z"
+  },
+  {
+    "id": 18,
+    "word": "reine",
+    "gender": "Féminin",
+    "translation": "queen",
+    "createdAt": "2024-07-03T10:50:37.069Z",
+    "updatedAt": "2024-07-03T10:50:37.069Z"
+  },
+  {
+    "id": 89,
+    "word": "fruit",
+    "gender": "Masculin",
+    "translation": "fruit",
+    "createdAt": "2024-07-04T06:55:37.270Z",
+    "updatedAt": "2024-07-04T06:55:37.270Z"
+  },
+  {
+    "id": 227,
+    "word": "pélican",
+    "gender": "Masculin",
+    "translation": "pelican",
+    "createdAt": "2024-07-04T06:55:38.797Z",
+    "updatedAt": "2024-07-04T06:55:38.797Z"
+  },
+  {
+    "id": 26,
+    "word": "vache",
+    "gender": "Féminin",
+    "translation": "cow",
+    "createdAt": "2024-07-03T10:50:37.407Z",
+    "updatedAt": "2024-07-03T10:50:37.407Z"
+  },
+  {
+    "id": 13,
+    "word": "père",
+    "gender": "Masculin",
+    "translation": "father",
+    "createdAt": "2024-07-03T10:50:36.864Z",
+    "updatedAt": "2024-07-03T10:50:36.864Z"
+  },
+  {
+    "id": 122,
+    "word": "cheminée",
+    "gender": "Féminin",
+    "translation": "fireplace",
+    "createdAt": "2024-07-04T06:55:37.969Z",
+    "updatedAt": "2024-07-04T06:55:37.969Z"
+  },
+  {
+    "id": 8,
+    "word": "fleur",
+    "gender": "Féminin",
+    "translation": "flower",
+    "createdAt": "2024-07-03T10:50:36.654Z",
+    "updatedAt": "2024-07-03T10:50:36.654Z"
+  },
+  {
+    "id": 155,
+    "word": "sentier",
+    "gender": "Masculin",
+    "translation": "trail",
+    "createdAt": "2024-07-04T06:55:38.022Z",
+    "updatedAt": "2024-07-04T06:55:38.022Z"
+  },
+  {
+    "id": 80,
+    "word": "marché",
+    "gender": "Masculin",
+    "translation": "market",
+    "createdAt": "2024-07-04T06:55:37.243Z",
+    "updatedAt": "2024-07-04T06:55:37.243Z"
+  },
+  {
+    "id": 130,
+    "word": "facteur",
+    "gender": "Masculin",
+    "translation": "mailman",
+    "createdAt": "2024-07-04T06:55:37.980Z",
+    "updatedAt": "2024-07-04T06:55:37.980Z"
+  },
+  {
+    "id": 115,
+    "word": "miroir",
+    "gender": "Masculin",
+    "translation": "mirror",
+    "createdAt": "2024-07-04T06:55:37.953Z",
+    "updatedAt": "2024-07-04T06:55:37.953Z"
+  }
+]
