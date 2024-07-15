@@ -1,5 +1,3 @@
-use once_cell::sync::Lazy; // Add this import
-
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
 pub struct Word {
     pub id: i32,
